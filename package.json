@@ -1,6 +1,7 @@
 {
   "name": "image-gallery",
   "version": "1.0.0",
+  "homepage": "https://soybeanfein.github.io/crying_in_hmart",
   "description": "Stage a couple of frames with a reflective, blurred out ground.",
   "keywords": [
     "image",
@@ -20,12 +21,16 @@
     "uuid-by-string": "4.0.0",
     "wouter": "2.11.0"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
+  },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "browserslist": [
     ">0.2%",
