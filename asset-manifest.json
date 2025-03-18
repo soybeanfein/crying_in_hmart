@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/crying_in_hmart/static/css/main.f1021bed.css",
+    "main.js": "/crying_in_hmart/static/js/main.c111ecc2.js",
+    "index.html": "/crying_in_hmart/index.html",
+    "main.f1021bed.css.map": "/crying_in_hmart/static/css/main.f1021bed.css.map",
+    "main.c111ecc2.js.map": "/crying_in_hmart/static/js/main.c111ecc2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f1021bed.css",
+    "static/js/main.c111ecc2.js"
+  ]
+}
